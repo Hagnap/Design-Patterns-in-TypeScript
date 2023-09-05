@@ -14,7 +14,7 @@ TypeScript
 VS Code
 
 # Helpful Resources
-[The Gang of Four Designs Pattern book](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
+[The Gang of Four Design Patterns book](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
 
 Youtube Series
 
