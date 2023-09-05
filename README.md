@@ -5,6 +5,15 @@ The past few months I have been going down the JavaScript rabbit hole and enjoyi
 
 As for Design Patterns, I have been wanting to learn about them recently so I bought the Gang of Four book about Design Patterns. I am excited to learn about Design Patterns as I am trying to improve my Software Engineering skills and this is something that I think can help a lot.
 
+## Design Pattern Links
+
+### Behavioral
+ * [Strategy Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Strategy-Pattern)
+
+### Creational 
+
+### Structural
+
 
 ## Tech Stack
 
