@@ -1,4 +1,4 @@
-# Strategy Pattern (README is a WIP)
+# Strategy Pattern
 
 ## What is the Strategy Pattern?
 Simply put the Strategy Pattern is a way for an algorithm's behavior to be changed at runtime. This allows us to plug and play different implementations of an algorithm. 
