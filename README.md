@@ -39,7 +39,7 @@ Youtube Series
        1. [Design Patterns: Command/Memento](https://www.youtube.com/watch?v=zRbHlDeon3E)
        2. [Design Patterns: Strategy](https://www.youtube.com/watch?v=QZIvlny1Onk)
        3. [Design Patterns: Template Method](https://www.youtube.com/watch?v=MfAvs0n9uMs)
-       4. [Design Patterns: Observer and Publish-Subscribe]([https://www.youtube.com/watch?v=72bdaDl4KLM)
+       4. [Design Patterns: Observer and Publish-Subscribe](https://www.youtube.com/watch?v=72bdaDl4KLM)
        5. [Design Patterns: Singleton](https://www.youtube.com/watch?v=sbML3xFHRbI)
        6. [Design Patterns: Factories](https://www.youtube.com/watch?v=JEk7B_GUErc)
        7. [Design Patterns: Adapter and Façade](https://www.youtube.com/watch?v=XYa0rmRMZ1Q)
