@@ -18,6 +18,7 @@ Below is the UML the code for this implementation was inspired by. The main diff
 [UML Source](https://java2blog.com/strategy-design-pattern-java/)
 
 When you run the code you will see the result below
+
 ![Image of result](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/d95db22a-aa7c-4556-8865-860040173ca5)
 
 We first run the SortingManager's `sort()` function using the NoSortStrategy. This results in nothing as no sort was performed. Then we assign the BubbleSortStrategy to the SortingManager and call the `sort()` function again. This results in the numbers being sorted via Bubble Sort.
