@@ -20,13 +20,13 @@ Below is the UML the code for this implementation was inspired by. The main diff
 ## How to Run the Code
 
 ### Instructions
-  Step Zero: Install node if you do not have it
+  Step 0: Install node if you do not have it. If you have it installed already, then skip this.
   
-  Step One: Open your terminal
+  Step 1: Open your terminal
   
-  Step Two: Go into the "Strategy-Pattern" directory on your local machine. 
+  Step 2: Go into the "Strategy-Pattern" directory on your local machine. 
   
-  Step Three: Run the `node SortingMain.js` command in your terminal
+  Step 3: Run the `node SortingMain.js` command in your terminal
 
 ----------------------------
 When you run the code you will see the result below
