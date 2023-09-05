@@ -35,23 +35,23 @@ Youtube Series
   
   * Microsoft Visual Studio (They don't have a playlist published but they do have a few videos on Design Patterns)
     
-    [SOLID Design Patterns](https://www.youtube.com/watch?v=agkWYPUcLpg)
-    
-    [Design Patterns: Command/Memento](https://www.youtube.com/watch?v=zRbHlDeon3E)
-    
-    [Design Patterns: Strategy](https://www.youtube.com/watch?v=QZIvlny1Onk)
-    
-    [Design Patterns: Template Method](https://www.youtube.com/watch?v=MfAvs0n9uMs)
-    
-    [Design Patterns: Observer and Publish-Subscribe](https://www.youtube.com/watch?v=72bdaDl4KLM)
-    
-    [Design Patterns: Singleton](https://www.youtube.com/watch?v=sbML3xFHRbI)
-    
-    [Design Patterns: Factories](https://www.youtube.com/watch?v=JEk7B_GUErc)
-    
-    [Design Patterns: Adapter and Façade](https://www.youtube.com/watch?v=XYa0rmRMZ1Q)
-    
-    [Design Patterns: Decorator](https://www.youtube.com/watch?v=6PPMR0GWrZQ)
+         [SOLID Design Patterns](https://www.youtube.com/watch?v=agkWYPUcLpg)
+         
+         [Design Patterns: Command/Memento](https://www.youtube.com/watch?v=zRbHlDeon3E)
+         
+         [Design Patterns: Strategy](https://www.youtube.com/watch?v=QZIvlny1Onk)
+         
+         [Design Patterns: Template Method](https://www.youtube.com/watch?v=MfAvs0n9uMs)
+         
+         [Design Patterns: Observer and Publish-Subscribe](https://www.youtube.com/watch?v=72bdaDl4KLM)
+         
+         [Design Patterns: Singleton](https://www.youtube.com/watch?v=sbML3xFHRbI)
+         
+         [Design Patterns: Factories](https://www.youtube.com/watch?v=JEk7B_GUErc)
+         
+         [Design Patterns: Adapter and Façade](https://www.youtube.com/watch?v=XYa0rmRMZ1Q)
+         
+         [Design Patterns: Decorator](https://www.youtube.com/watch?v=6PPMR0GWrZQ)
 
   * [Derek Banas - Design Patterns Video Tutorial](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 
