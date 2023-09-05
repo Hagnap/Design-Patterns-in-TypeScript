@@ -37,4 +37,4 @@ Youtube Series
 
 ## Just a Quick Heads-Up
 
-The explanations for the design patterns should not be taken as gospel as these are things I'm learning. There merely for the purpose of my learning experience and trying to describe these design patterns in my own words to show I have an understanding of them and not some copy and pasted definition. So if you somehow stumbled upon this repo to learn about Design Patterns in TypeScript (or any language) then I would recommend looking at the Helpful Resources section.
+The explanations for the design patterns should not be taken as gospel as these are things I'm learning. They're merely for the purpose of my learning experience and trying to describe these design patterns in my own words to show I have an understanding of them and not some copy and pasted definition. So if you somehow stumbled upon this repo to learn about Design Patterns in TypeScript (or any language) then I would recommend looking at the Helpful Resources section.
