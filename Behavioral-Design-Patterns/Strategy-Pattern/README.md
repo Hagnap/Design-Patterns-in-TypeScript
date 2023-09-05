@@ -8,4 +8,4 @@ Below is the UML the code for this implementation was inspired by. The main diff
 
 ![UML Image](https://java2blog.com/wp-content/webpc-passthru.php?src=https://java2blog.com/wp-content/uploads/2018/04/classDigramStrategyPattern.jpg&nocache=1)
 
-[UML Source](https://java2blog.com/wp-content/webpc-passthru.php?src=https://java2blog.com/wp-content/uploads/2018/04/classDigramStrategyPattern.jpg&nocache=1)
+[UML Source](https://java2blog.com/strategy-design-pattern-java/)
