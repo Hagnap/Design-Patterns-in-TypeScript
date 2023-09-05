@@ -20,7 +20,7 @@ Youtube Series
 
   * https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc
   
-  * Microsoft Visual Studio (They don't have a playlist but they do have a few videos on Design Patterns)
+  * Microsoft Visual Studio (They don't have a playlist published but they do have a few videos on Design Patterns)
     
        0. SOLID Design Patterns (start from here):   https://www.youtube.com/watch?v=agkWYPUcLpg
        1. Design Patterns: Command/Memento:   https://www.youtube.com/watch?v=zRbHlDeon3E
