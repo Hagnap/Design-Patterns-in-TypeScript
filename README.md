@@ -31,7 +31,7 @@ VS Code
 
 Youtube Series
 
-  * https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc
+  * [Christopher Okhravi - Design Patterns in Object Oriented Programming](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
   
   * Microsoft Visual Studio (They don't have a playlist published but they do have a few videos on Design Patterns)
     
