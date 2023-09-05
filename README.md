@@ -45,7 +45,7 @@ Youtube Series
        7. Design Patterns: Adapter and Façade:   https://www.youtube.com/watch?v=XYa0rmRMZ1Q
        8. Design Patterns: Decorator:   https://www.youtube.com/watch?v=6PPMR0GWrZQ
 
-  * https://www.youtube.com/playlist?list=PLF206E906175C7E07
+  * [Derek Banas - Design Patterns Video Tutorial](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 
 ## Just a Quick Heads-Up
 
