@@ -3,7 +3,7 @@
 ## Purpose of this Project
 The past few months I have been going down the JavaScript rabbit hole and enjoying it. However, I've always wished JavaScript was a statically typed lanuage. When I first started programming I used statically typed langauges (Java, C++, C, C#) and got used to defining the data-type. It was something I also used to help write code with less errors and that was easier to read. I like knowing what data-type is going to be stored in a variable. So I setup TypeScript on my computer, I love it so far. I can do everything I can do in JavaScript and define my data-types, it is a bit more verbose when it comes to the code but I am happy with the trade-off. 
 
-As for Design Patterns, I have been wanting to learn about them recently so I bought the Gang of Four book about Design Patterns. I am excited to learn about Design Patterns as I am trying to improve my Software Engineering skills and this is something that I think can help a lot:)
+As for Design Patterns, I have been wanting to learn about them recently so I bought the Gang of Four book about Design Patterns. I am excited to learn about Design Patterns as I am trying to improve my Software Engineering skills and this is something that I think can help a lot.
 
 ## Tech Stack
 
