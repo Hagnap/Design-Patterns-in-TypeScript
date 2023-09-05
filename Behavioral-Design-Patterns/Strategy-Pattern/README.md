@@ -17,7 +17,18 @@ Below is the UML the code for this implementation was inspired by. The main diff
 
 [UML Source](https://java2blog.com/strategy-design-pattern-java/)
 
-### Code for the Example
+## How to Run the Code
+
+### Instructions
+  Step Zero: Install node if you do not have it
+  
+  Step One: Open your terminal
+  
+  Step Two: Go into the "Strategy-Pattern" directory on your local machine. 
+  
+  Step Three: Run the `node SortingMain.js` command in your terminal
+
+----------------------------
 When you run the code you will see the result below
 
 ![Image of result](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/d95db22a-aa7c-4556-8865-860040173ca5)
