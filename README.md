@@ -5,6 +5,7 @@ The past few months I have been going down the JavaScript rabbit hole and enjoyi
 
 As for Design Patterns, I have been wanting to learn about them recently so I bought the Gang of Four book about Design Patterns. I am excited to learn about Design Patterns as I am trying to improve my Software Engineering skills and this is something that I think can help a lot.
 
+
 ## Tech Stack
 
 Node
@@ -13,7 +14,7 @@ TypeScript
 
 VS Code
 
-# Helpful Resources
+## Helpful Resources
 [The Gang of Four Design Patterns book](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
 
 Youtube Series
@@ -33,3 +34,7 @@ Youtube Series
        8. Design Patterns: Decorator:   https://www.youtube.com/watch?v=6PPMR0GWrZQ
 
   * https://www.youtube.com/playlist?list=PLF206E906175C7E07
+
+## Just a Quick Heads-Up
+
+The explanations for the design patterns should not be taken as gospel as these are things I'm learning. There merely for the purpose of my learning experience and trying to describe these design patterns in my own words to show I have an understanding of them and not some copy and pasted definition. So if you somehow stumbled upon this repo to learn about Design Patterns in TypeScript (or any language) then I would recommend looking at the Helpful Resources section.
