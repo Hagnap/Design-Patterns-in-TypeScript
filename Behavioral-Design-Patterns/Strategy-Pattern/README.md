@@ -1,6 +1,13 @@
 # Strategy Pattern (README is a WIP)
 
 ## What is the Strategy Pattern?
+Simply put the Strategy Pattern is a way for an algorithm's behavior to be changed at runtime. This allows us to plug and play different implementations of an algorithm. 
+To accomplish this we must
+  - Define a family of algorithms
+  - Encapsulate each algorithm
+  - Make the algorithms interchangable with the algorithm within the family
+
+Interfaces are needed for this as this allows us to have a method in various classes that can all have their own unique implementations. In the example `sort()` is the function we declare in our interface and then implement in each of the strategies.
 
 ## Example
 
