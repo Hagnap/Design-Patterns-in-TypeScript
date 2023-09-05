@@ -20,7 +20,7 @@ Below is the UML the code for this implementation was inspired by. The main diff
 ## How to Run the Code
 
 ### Instructions
-  Step 0: [Install node](https://nodejs.org/en/download) if you do not have it. If you have it installed already, then skip this. I also recommend installing an IDE (VS Code) but any text editor will work.
+  Step 0: [Install node](https://nodejs.org/en/download) if you do not have it. If you have it installed already, then skip this. I also recommend installing an IDE (ex. VS Code) but any text editor will work.
   
   Step 1: Open your terminal
   
