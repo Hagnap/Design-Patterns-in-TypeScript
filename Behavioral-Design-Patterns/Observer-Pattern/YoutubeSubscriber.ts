@@ -8,7 +8,11 @@ export class YoutubeSubscriber implements IObserver {
     private subject: YoutubeChannel;
 
     constructor(_subject: YoutubeChannel) {
+
+        // Set reference to the subject and then register the observer to the subject
         this.subject = _subject;
+        this.subject.register(this);
+        
         this.state = this.subject.getState();
     }
 
