@@ -35,3 +35,19 @@ The Observer Pattern is when an object referred to as the Subject has a containe
 
 In this example the Subject is the YoutubeChannel object and the Observers are the YoutubeSubscriber objects. The YoutubeSubscribers when created are registered to the Subject and also store a reference to the Subject. The YoutubeChannel object has an array to store references of its Observers. The example follows the UML seen above but the concrete implementations are Youtube oriented. Now this isn't an accurate representation of a Youtube subscriber as their state probably isn't a video of a Youtube channel but it is a *simple* system that notifies subscribers of a new video (videos are the state in this example) from a they subscribed (registered) to channel. If a subscriber unsubscribes (unregisters) they no longer recieve notifications of a new video from that channel.
 
+### Instructions
+  Step 0: [Install node](https://nodejs.org/en/download) if you do not have it. If you have it installed already, then skip this. I also recommend installing an IDE (ex. VS Code) but any text editor will work.
+  
+  Step 1: Open your terminal
+  
+  Step 2: Go into the "Strategy-Pattern" directory on your local machine. 
+  
+  Step 3: Run the `node main.js` command in your terminal
+
+----------------------------
+When you run the code you will see the result below
+![Capture - Result Example](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/ec2b5fd2-0234-43b2-9ba0-854b60961502)
+
+We first check the status of the Observers when created, they're nothing as their respective Subjects have not updated their initial values. Then the two Subjects are updated which results in all Observers getting updated and we then display those values. We repeat that process but only for one Subject. After that we unregister an Observer from the previously updated Subject, updated that Subject, and then display the values of all of the Observers.
+
+
