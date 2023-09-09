@@ -1,4 +1,4 @@
-# Observer Pattern (WIP)
+# Observer Pattern
 
 ## What is the Observer Pattern?
 
