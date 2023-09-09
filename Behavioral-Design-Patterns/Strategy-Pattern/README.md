@@ -9,6 +9,10 @@ To accomplish this we must
 
 Interfaces are needed for this as this allows us to have a method in various classes that can all have their own unique implementations. In the example `sort()` is the function we declare in our interface and then implement in each of the strategies.
 
+## Generic UML
+![3918654_orig](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/f3c2ba8c-1ee7-4cf2-acdf-d0d40cdedff8)
+[Source](http://www.hsufengko.com/notes/strategy-design-pattern-example) (Also on page 316 of Design Patterns)
+
 ## Example Explanation
 
 Below is the UML the code for this implementation was inspired by. The main difference is the sorting algorithms used. They used Merge Sort and Quick Sort. For the sake of implementating different algorithms in a simple manner I used Bubble Sort and No Sort (just a console.log saying no sorting algorithm was used). As I review Data Structures and Algorithms I plan to implement Merge Sort, Quick Sort, and a few others to expand the family of (sorting) algorithms in this implementation of the Strategy Pattern.
