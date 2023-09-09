@@ -22,4 +22,4 @@ The Observer Pattern is when an object referred to as the subject has a containe
 
 ![IMG](https://i.stack.imgur.com/w5Cqy.png)
 
-[Source](https://www.cs.mcgill.ca/~hv/classes/CS400/01.hchen/doc/observer/observer.html)
+[Source](https://www.cs.mcgill.ca/~hv/classes/CS400/01.hchen/doc/observer/observer.html) (Also page 294 in "Design Patterns")
