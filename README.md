@@ -1,7 +1,7 @@
 # Design-Patterns-in-TypeScript 
 
 ## Project is a WIP
-At the moment this project is still a WIP as I am learning these design patterns in my free-time outside of work. Eventually I plan on having the 23 design patterns discussed in the Gang of Four book. 
+At the moment this project is still a WIP as I am learning these design patterns in my free-time outside of work. Eventually I plan on having the 23 design patterns discussed in the Gang of Four Design Patterns book. 
 
 ## Purpose of this Project
 The past few months I have been going down the JavaScript rabbit hole and enjoying it. However, I've always wished JavaScript was a statically typed language. When I first started programming I used statically typed langauges (Java, C++, C, C#) and got used to defining the data-type. It was something I also used to help write code with less errors and that was easier to read (for me). I like knowing what data-type is going to be stored in a variable, get passed into a function, and so on. So I setup TypeScript on my computer. I've been loving it so far. I can do everything I can do in JavaScript and define my data-types, it is a bit more verbose when it comes to the code but I am happy with the trade-off. 
