@@ -31,7 +31,7 @@ The Observer Pattern is when an object referred to as the subject has a containe
 
 [Source](https://www.cs.mcgill.ca/~hv/classes/CS400/01.hchen/doc/observer/observer.html) (Also page 294 in "Design Patterns")
 
-## Brief Example Explanation
+## Example Explanation
 
 In this example the Subject is the YoutubeChannel object and the Observers are the YoutubeSubscriber objects. The YoutubeSubscribers when created are registered to the Subject and also store a reference to the Subject. The YoutubeChannel object has an array to store references of its Observers. The example follows the UML seen above but the concrete implementations are Youtube oriented. Now this isn't an accurate representation of a Youtube subscriber as their state probably isn't a video of a Youtube channel but it is a *simple* system that notifies subscribers of a new video (videos are the state in this example) from a they subscribed (registered) to channel. If a subscriber unsubscribes (unregisters) they no longer recieve notifications of a new video from that channel.
 
