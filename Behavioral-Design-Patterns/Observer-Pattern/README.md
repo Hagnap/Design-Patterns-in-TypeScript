@@ -46,6 +46,7 @@ In this example the Subject is the YoutubeChannel object and the Observers are t
 
 ----------------------------
 When you run the code you will see the result below
+
 ![Capture - Result Example](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/ec2b5fd2-0234-43b2-9ba0-854b60961502)
 
 We first check the status of the Observers when created, they're nothing as their respective Subjects have not updated their initial values. Then the two Subjects are updated which results in all Observers getting updated and we then display those values. We repeat that process but only for one Subject. After that we unregister an Observer from the previously updated Subject, updated that Subject, and then display the values of all of the Observers.
