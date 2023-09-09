@@ -11,6 +11,7 @@ Interfaces are needed for this as this allows us to have a method in various cla
 
 ## Generic UML
 ![3918654_orig](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/f3c2ba8c-1ee7-4cf2-acdf-d0d40cdedff8)
+
 [Source](http://www.hsufengko.com/notes/strategy-design-pattern-example) (Also on page 316 of Design Patterns)
 
 ## Example Explanation
