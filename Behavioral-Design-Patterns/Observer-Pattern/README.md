@@ -17,6 +17,13 @@ The Observer Pattern is when an object referred to as the subject has a containe
     - There are many in a relationship.
     - "Observe" the subject.
     - Have a reference of the Subject passed into them when constructed as this allows us to retrieve the state of the Subject when notified of it getting updated if registered.
+ 
+- One to Many
+    - A relationship where one entity is connected to multiple other entities
+
+  ![OneToMany](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/69bdb305-a0e4-4e51-a05d-f89b43cc4699)
+
+
   
 ## Generic UML Example
 
