@@ -40,7 +40,7 @@ In this example the Subject is the YoutubeChannel object and the Observers are t
   
   Step 1: Open your terminal
   
-  Step 2: Go into the "Strategy-Pattern" directory on your local machine. 
+  Step 2: Go into the "Observer-Pattern" directory on your local machine. 
   
   Step 3: Run the `node main.js` command in your terminal
 
