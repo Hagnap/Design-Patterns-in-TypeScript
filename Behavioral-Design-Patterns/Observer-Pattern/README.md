@@ -4,7 +4,7 @@
 
 Aka the Publish/Subscribe Design Pattern.
 
-The Observer Pattern is when an object referred to as the subject has a container of objects called observers, observers are dependent on the subject and get notified when the subject has changed its state. This is a one to many relationship, there is one subject being observed by zero or more objects. It also utilizes a Push architecture for notifying the observers of the subject's change in state and the observers are updated automatically which allows the observers to have a value that is consistent with the subject's state. Observers will register to the Subject to get their notifications for updating values, they can also be unregistered to stop the changes being made. 
+The Observer Pattern is when an object referred to as the Subject has a container of objects called Observers, Observers are dependent on the Subject and get notified when the Subject has changed its state. This is a one to many relationship, there is one Subject being observed by zero or more Objects. It also utilizes a Push architecture for notifying the Observers of the Subject's change in state and the Observers are updated automatically which allows the observers to have a value that is consistent with the Subject's state. Observers will register to the Subject to get their notifications for updating values, they can also be unregistered to stop the changes being made. 
 
 ## Terminology
 - Subject
