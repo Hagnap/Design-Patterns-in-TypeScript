@@ -16,7 +16,7 @@ As for Design Patterns, this is something that I have been wanting to learn abou
  * [Observer Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Observer-Pattern)
 
 ### Creational 
-
+* [Factory Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Factory-Pattern)
 ### Structural
 
 
