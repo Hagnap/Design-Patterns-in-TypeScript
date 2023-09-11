@@ -29,7 +29,7 @@ Below is the UML the code for this implementation was inspired by. The main diff
   
   Step 1: Open your terminal
   
-  Step 2: Go into the "Strategy-Pattern" directory on your local machine. 
+  Step 2: Go into the "Design-Patterns-in-TypeScript/Behavioral-Design-Patterns/Strategy-Pattern" directory on your local machine. 
   
   Step 3: Run the `node SortingMain.js` command in your terminal
 
