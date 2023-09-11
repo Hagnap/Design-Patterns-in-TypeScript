@@ -22,3 +22,14 @@ Below is the UML the code for this implementation was inspired by. It takes a gr
 ![IMG](https://www.tutorialspoint.com/design_pattern/images/factory_pattern_uml_diagram.jpg)
 
 [Source](https://www.tutorialspoint.com/design_pattern/factory_pattern.html)
+
+## How to Run the Code
+Instructions
+
+Step 0: Install node if you do not have it. If you have it installed already, then skip this. I also recommend installing an IDE (ex. VS Code) but any text editor will work.
+
+Step 1: Open your terminal
+
+Step 2: Go into the "Design-Patterns-in-TypeScript/Creational-Design-Patterns/Factory-Pattern" directory on your local machine.
+
+Step 3: Run the node main.js command in your terminal
