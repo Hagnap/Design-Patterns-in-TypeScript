@@ -17,6 +17,9 @@ As for Design Patterns, this is something that I have been wanting to learn abou
 
 ### Creational 
 * [Factory Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Factory-Pattern)
+
+* [Singleton](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Singleton-Pattern)
+  
 ### Structural
 
 
