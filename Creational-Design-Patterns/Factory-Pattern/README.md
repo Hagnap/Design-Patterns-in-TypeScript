@@ -33,3 +33,11 @@ Step 1: Open your terminal
 Step 2: Go into the "Design-Patterns-in-TypeScript/Creational-Design-Patterns/Factory-Pattern" directory on your local machine.
 
 Step 3: Run the node main.js command in your terminal
+
+-------------------------------------------------------------------------------------------------------------
+
+When you run the code you will see the result below 
+
+![Capture](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/bb082d7e-055b-4308-a982-61a36d0ae7be)
+
+The first thing you see is the command to run the program, below that is three lines. Those three lines are the output. You can see the result of the `draw()` function being called in the shapes that were defined. 
