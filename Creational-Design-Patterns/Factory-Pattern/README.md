@@ -2,6 +2,8 @@
 
 ## What is the Factory Pattern?
 
+This pattern allows us to create a variety of classes at runtime when we don't know what we will have to instantiate at the moment. We store the factory in a class so we can take advantage of Polymorphism and lets us swap what class we want to instantiate during runtime. We also store the factory in a class as it encapsulates the logic needed for instantiating classes.
+
 ## Generic UML
 
 ![IMG](https://www.dofactory.com/img/diagrams/net/factory.png)
