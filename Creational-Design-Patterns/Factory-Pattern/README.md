@@ -10,6 +10,8 @@
 
 ## Example Explanation
 
+Below is the UML the code for this implementation was inspired by. It takes a group of shapes, creates them using a factory, and then "draws" them using each shapes respective `draw()` function. One of the two  differences is that in the factory, instead of using `getShape()` I used a function named `createShape()`. Also, instead of having a file called `FactoryPatternDemo.ts` I called it `main.ts`.
+
 ![IMG](https://www.tutorialspoint.com/design_pattern/images/factory_pattern_uml_diagram.jpg)
 
 [Source](https://www.tutorialspoint.com/design_pattern/factory_pattern.html)
