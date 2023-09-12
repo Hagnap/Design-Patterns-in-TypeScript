@@ -9,9 +9,9 @@
 
 ## Example
 
-The code for this example was inspired by the UML below 
+The code for this example was inspired by the UML below. The only differences are the decorators implemented and the types of Coffees implemented. When it comes to decorators I used soy, espresso shot, and creamer. For types of coffee I used coffee (black coffee) and decaf cofee. Each type of coffee can have any decorator added to it, so you can add an espresso shot to a decaf coffee if you please.
 
-https://miro.medium.com/v2/resize:fit:720/format:webp/1*dbwssnHb4v1oegDH83S2sQ.png
+![1 dbwssnHb4v1oegDH83S2sQ](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/a2af21d5-62fc-4148-86af-ff66f6377592)
 
 
 ## How to Run the Code
