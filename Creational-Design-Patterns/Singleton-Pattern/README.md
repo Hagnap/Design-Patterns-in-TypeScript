@@ -2,7 +2,7 @@
 
 ## What is the Singleton Pattern?
 
-The Singleton Pattern is a pattern that utilizes a Singleton, a Singleton is an object where only one can exists and it is shared globally with all resources in the project. The way we ensure only instance can exist is by a static variable to store the sole instance of the object. The Singleton is responsible for keeping track of its sole instance. 
+The Singleton Pattern is a pattern that utilizes an object (a Singleton) where only one can exists and it is shared globally with all resources in the project. The way we ensure only instance can exist is by a static variable to store the sole instance of the object. The Singleton is responsible for keeping track of its sole instance. 
 
 ## Generic UML
 
@@ -29,7 +29,7 @@ Step 1: Open your terminal
 
 Step 2: Go into the "Design-Patterns-in-TypeScript/Creational-Design-Patterns/Singleton-Pattern" directory on your local machine.
 
-Step 3: Run the node main.js command in your terminal
+Step 3: Run the `node main.js` command in your terminal
 
 ----------------------------------------------------------------------------------------------------------
 
