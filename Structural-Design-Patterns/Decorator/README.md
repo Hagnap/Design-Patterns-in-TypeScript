@@ -29,6 +29,8 @@ In this example there are two types of coffee
   2) Decaf Coffee
 
 There are also three add-ons for the coffee
-  1) Espresso shot
-  2) Soy
-  3) Creamer
+  1) Espresso shot ($0.50)
+  2) Soy ($0.75)
+  3) Creamer ($0.25)
+
+In the output seen above you can see the creation of two coffees. The first is a normal coffee that gets all three add-ons. Then you see the creation of a Black Cofee where Creamer and Soy get added to it.
