@@ -10,3 +10,25 @@
 ## Example
 
 ## How to Run the Code
+Instructions
+
+Step 0: Install node if you do not have it. If you have it installed already, then skip this. I also recommend installing an IDE (ex. VS Code) but any text editor will work.
+
+Step 1: Open your terminal
+
+Step 2: Go into the "Design-Patterns-in-TypeScript/Structural-Design-Patterns/Decorator-Pattern" directory on your local machine.
+
+Step 3: Run the node main.js command in your terminal
+
+When you run the code you will see the result below
+
+![Capture](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/223877f2-a2c7-4c59-aa26-0ba40ae49d40)
+
+In this example there are two types of coffee
+  1) Coffee (aka Black Coffee)
+  2) Decaf Coffee
+
+There are also three add-ons for the coffee
+  1) Espresso shot
+  2) Soy
+  3) Creamer
