@@ -1,6 +1,6 @@
 # Decorator Pattern
 
-The Decorator Pattern is a pattern that allows us to change the behavior of an object without rewriting it. To phrase it differently, it addes more responsibilities to an object dynamically. This pattern is more flexible than inheritance.
+The Decorator Pattern is a pattern that allows us to change the behavior of an object without rewriting it. To phrase it differently, it adds more responsibilities to an object dynamically. This pattern is more flexible than inheritance.
 
 ### Terminology: 
   * Component: The base object, what we decorate.
