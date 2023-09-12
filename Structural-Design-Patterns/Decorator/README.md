@@ -9,6 +9,11 @@
 
 ## Example
 
+The code for this example was inspired by the UML below 
+
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*dbwssnHb4v1oegDH83S2sQ.png
+
+
 ## How to Run the Code
 Instructions
 
