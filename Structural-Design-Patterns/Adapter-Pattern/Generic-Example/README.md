@@ -19,3 +19,5 @@ Step 3: Run the node main.js command in your terminal
 When you run the code you will see the result below
 
 ![Capture --- Generic Adapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/2c63361d-49a7-4ffe-8e92-0acbc5474b21)
+
+The first line of output comes from an instance of Target and the second comes from an istance of Adapter.
