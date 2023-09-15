@@ -11,6 +11,8 @@
 
 ## Example
 
+The code used in the implementation of the Adapter Pattern example was inspired by the UML below.
+
 ![adapter_design_pattern_in_java_example](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/b6745610-6ca3-4e39-ba00-b0492325b7b2)
 [Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fjavarevisited.blogspot.com%2F2016%2F08%2Fadapter-design-pattern-in-java-example.html&psig=AOvVaw33rZEoc8Du7CtJvEF6Qhu5&ust=1694887441715000&source=images&cd=vfe&opi=89978449&ved=0CBAQjhxqFwoTCLD1yPKZrYEDFQAAAAAdAAAAABAE)
 
