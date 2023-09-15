@@ -4,7 +4,9 @@
 
 ## Generic UML
 
-![Uploading objectadapter.jpg…]()
+![1mPAh](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/5aa1a818-7c7e-4f61-8967-88106d286a53)
+
+
 [Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fjavajazzle.wordpress.com%2F2011%2F03%2F02%2Fadapter-pattern-wrapper-pattern%2F&psig=AOvVaw0hUC7BNoSoNamKFFlRv94C&ust=1694887473467000&source=images&cd=vfe&opi=89978449&ved=0CBEQjhxqFwoTCJDAzIGarYEDFQAAAAAdAAAAABAJ) (Also on page 141 of Design Patterns)
 
 
