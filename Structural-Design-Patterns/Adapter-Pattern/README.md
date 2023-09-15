@@ -1,6 +1,18 @@
 # Adapter-Pattern
 
 ## What is the Adapter Pattern?
+The Adapter Pattern is a design pattern that allows us to convert an interface of a class into another interface that a client expects. It's a way for classes to work together that couldn't have before due to incompatible interfaces. I like to think of it as a mapping layer, it maps the actions of interface to correspond with the actions of another interface to make them compatible. 
+
+### Terminology
+* Adapter: Adapts the interface of Adaptee to the Target interface.
+
+* Adaptee: Defines an interface that needs to be adapted to another interface
+
+* Target: Defines the interface that the client uses.
+
+* Class Adapter: Wraps an adapter around a class. Uses inheritance.
+
+* Object Adapter: Wraps an adapter around an instance. Uses interfaces.
 
 ## Generic UML
 
