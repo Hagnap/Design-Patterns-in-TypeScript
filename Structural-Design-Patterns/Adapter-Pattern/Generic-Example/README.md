@@ -2,6 +2,8 @@
 
 ## UML
 
+![objectadapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/5dd68232-598b-44eb-b5a5-0fc90cdd116e)
+
 ## How to Run the Code
 
 Instructions
@@ -16,5 +18,4 @@ Step 3: Run the node main.js command in your terminal
 
 When you run the code you will see the result below
 
-
-
+![Capture --- Generic Adapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/2c63361d-49a7-4ffe-8e92-0acbc5474b21)
