@@ -1,5 +1,7 @@
 # Adapter Pattern: Generic Example
 
+This is an implementation of the UML seen below, I just wanted some extra practice with this design pattern so I implemented this as well. 
+
 ## UML
 
 ![objectadapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/5dd68232-598b-44eb-b5a5-0fc90cdd116e)
