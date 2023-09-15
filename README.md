@@ -23,6 +23,8 @@ As for Design Patterns, this is something that I have been wanting to learn abou
 ### Structural
 * [Decorator](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Decorator)
 
+* [Adapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Adapter-Pattern)
+
 ## Tech Stack
 
 Node
