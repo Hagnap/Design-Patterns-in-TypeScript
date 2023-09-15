@@ -28,4 +28,5 @@ Step 2: Go into the "Design-Patterns-in-TypeScript/Structural-Design-Patterns/Ad
 Step 3: Run the node main.js command in your terminal
 
 When you run the code you will see the result below
+
 ![Capture](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/d2a9dbe3-b67f-420c-8c01-abd5ab6f7998)
