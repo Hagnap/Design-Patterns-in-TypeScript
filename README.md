@@ -21,7 +21,7 @@ As for Design Patterns, this is something that I have been wanting to learn abou
 * [Singleton](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Singleton-Pattern)
   
 ### Structural
-* [Decorator](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Decorator)
+* [Decorator](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Decorator-Pattern)
 
 * [Adapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Adapter-Pattern)
 
