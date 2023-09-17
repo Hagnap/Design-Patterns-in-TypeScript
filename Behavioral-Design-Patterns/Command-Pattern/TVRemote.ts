@@ -69,12 +69,16 @@ export class TVRemote {
     public decreaseVolume(): void {
         if(this.volume > this.minVolume) {
             this.volume--;
+        } else {
+            console.log("Min volume level has been reached...");
         }
     }
 
     public increaseVolume(): void {
         if(this.volume < this.maxVolume) {
             this.volume++;
+        } else {
+            console.log("Max volume level has been reached...");
         }
     }
 
@@ -85,12 +89,16 @@ export class TVRemote {
     public decreaseChannelNumber(): void {
         if(this.channelNumber > this.minChannelNumber) {
             this.channelNumber--;
+        } else {
+            console.log("Min channel number has been reached...");
         }
     }
 
     public increaseChannelNumber(): void {
         if(this.channelNumber < this.maxChannelNumber) {
             this.channelNumber++;
+        } else {
+            console.log("Max channel number has been reached...");
         }
     }
 }
