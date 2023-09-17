@@ -22,7 +22,7 @@ let decreaseChannelNumberCommand: DecreaseChannelNumberCommand = new DecreaseCha
 let increaseChannelNumberCommand: IncreaseChannelNumberCommand = new IncreaseChannelNumberCommand(tvRemote);
 
 
-// Run commands --- Maps a command to an index
+// Run commands --- Maps a command to an index (ex 0 is mapped to TurnOnCommand, 1 is mapped to TurnOffCommand, 6 is mapped to IncreaseVolumeCommand, and so on)
 tvRemote.addCommand(0, new TurnOnCommand(tvRemote));
 tvRemote.addCommand(1, new TurnOffCommand(tvRemote));
 tvRemote.addCommand(2, new DisplayChannelNumberCommand(tvRemote));
