@@ -17,6 +17,28 @@ var TVRemote = /** @class */ (function () {
             this.commands[i] = new NoOpCommand_1.NoOpCommand(this);
         }
     }
+    TVRemote.prototype.validateCommandNumberInput = function (input) {
+        if (input >= this.numCommands || input < 0) {
+            console.log("ERROR: Out of range. There are only ".concat(this.numCommands, " command slots"));
+            return false;
+        }
+        return true;
+    };
+    TVRemote.prototype.addCommand = function (index, command) {
+        if (this.validateCommandNumberInput(index)) {
+            this.commands[index] = command;
+        }
+    };
+    TVRemote.prototype.removeCommand = function (index) {
+        if (this.validateCommandNumberInput(index)) {
+            this.commands[index] = new NoOpCommand_1.NoOpCommand(this);
+        }
+    };
+    TVRemote.prototype.runCommand = function (index) {
+        if (this.validateCommandNumberInput(index)) {
+            this.commands[index].execute();
+        }
+    };
     TVRemote.prototype.turnOff = function () {
         this.isOn = false;
     };

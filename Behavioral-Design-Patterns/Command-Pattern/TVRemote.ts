@@ -27,41 +27,68 @@ export class TVRemote {
         }
     }
 
-    public turnOff() {
+    private validateCommandNumberInput(input) {
+        if(input >= this.numCommands || input < 0) {
+            console.log(`ERROR: Out of range. There are only ${this.numCommands} command slots`);
+            return false;
+        }
+        return true;
+    }
+
+    public addCommand(index: number, command:ICommand): void{
+        if(this.validateCommandNumberInput(index)) {
+            this.commands[index] = command;
+        }
+
+    }
+
+    public removeCommand(index: number): void {
+        if(this.validateCommandNumberInput(index)) {
+            this.commands[index] = new NoOpCommand(this);
+        }
+    }
+
+    public runCommand(index: number) {
+        if(this.validateCommandNumberInput(index)) {
+            this.commands[index].execute();
+        }        
+    }
+
+    public turnOff(): void {
         this.isOn = false;
     }
 
-    public turnOn() {
+    public turnOn(): void {
         this.isOn = false;
     }
 
-    public displayVolume() {
+    public displayVolume(): void {
         console.log(`Volume: ${this.volume}`);
     }
 
-    public decreaseVolume() {
+    public decreaseVolume(): void {
         if(this.volume > this.minVolume) {
             this.volume--;
         }
     }
 
-    public increaseVolume(){
+    public increaseVolume(): void {
         if(this.volume < this.maxVolume) {
             this.volume++;
         }
     }
 
-    public displayChannelNumber() {
+    public displayChannelNumber(): void {
         console.log(`Channel Number: ${this.channelNumber}`);
     }
 
-    public decreaseChannelNumber() {
+    public decreaseChannelNumber(): void {
         if(this.channelNumber > this.minChannelNumber) {
             this.channelNumber--;
         }
     }
 
-    public increaseChannelNumber(){
+    public increaseChannelNumber(): void {
         if(this.channelNumber < this.maxChannelNumber) {
             this.channelNumber++;
         }

@@ -22,31 +22,40 @@ let decreaseChannelNumberCommand: DecreaseChannelNumberCommand = new DecreaseCha
 let increaseChannelNumberCommand: IncreaseChannelNumberCommand = new IncreaseChannelNumberCommand(tvRemote);
 
 
-// Run commands
-turnOnCommand.execute();
+// Run commands --- Maps a command to an index
+tvRemote.addCommand(0, new TurnOnCommand(tvRemote));
+tvRemote.addCommand(1, new TurnOffCommand(tvRemote));
+tvRemote.addCommand(2, new DisplayChannelNumberCommand(tvRemote));
+tvRemote.addCommand(3, new IncreaseChannelNumberCommand(tvRemote));
+tvRemote.addCommand(4, new DecreaseChannelNumberCommand(tvRemote));
+tvRemote.addCommand(5, new DisplayVolumeCommand(tvRemote));
+tvRemote.addCommand(6, new IncreaseVolumeCommand(tvRemote));
+tvRemote.addCommand(7, new DecreaseVolumeCommand(tvRemote));
 
-displayVolumeCommand.execute();
+// Turns on TV
+tvRemote.runCommand(0);
+
+// Displays volume
+tvRemote.runCommand(5);
 
 // Increase volume by 20 & Then display volume
-for(let i = 0; i < 20; i++) { increaseVolumeCommand.execute(); }
-displayVolumeCommand.execute();
+for(let i = 0; i < 20; i++) { tvRemote.runCommand(6); }
+tvRemote.runCommand(5);
 
 // Decrease volume by 1
-decreaseVolumeCommand.execute();
-displayVolumeCommand.execute();
+tvRemote.runCommand(7);
+tvRemote.runCommand(5);
 
 // Display the channel number
-displayChannelNumberCommand.execute();
+tvRemote.runCommand(2);
 
 // Increase channel by 5 & display the channel number
-for(let i = 0; i < 5; i++) {
-    increaseChannelNumberCommand.execute();
-}
-displayChannelNumberCommand.execute();
+for(let i = 0; i < 5; i++) { tvRemote.runCommand(3); }
+tvRemote.runCommand(2);
 
 // Decrease channel number and then display it
-decreaseChannelNumberCommand.execute();
-displayChannelNumberCommand.execute();
+tvRemote.runCommand(4);
+tvRemote.runCommand(2);
 
 // Turn off the tv
-turnOffCommand.execute();
+tvRemote.runCommand(1);

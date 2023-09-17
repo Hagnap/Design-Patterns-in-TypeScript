@@ -20,26 +20,36 @@ var turnOffCommand = new TurnOffCommand_1.TurnOffCommand(tvRemote);
 var displayChannelNumberCommand = new DisplayChannelNumber_1.DisplayChannelNumberCommand(tvRemote);
 var decreaseChannelNumberCommand = new DecreaseChannelNumber_1.DecreaseChannelNumberCommand(tvRemote);
 var increaseChannelNumberCommand = new IncreaseChannelNumber_1.IncreaseChannelNumberCommand(tvRemote);
-// Run commands
-turnOnCommand.execute();
-displayVolumeCommand.execute();
+// Run commands --- Maps a command to an index
+tvRemote.addCommand(0, new TurnOnCommand_1.TurnOnCommand(tvRemote));
+tvRemote.addCommand(1, new TurnOffCommand_1.TurnOffCommand(tvRemote));
+tvRemote.addCommand(2, new DisplayChannelNumber_1.DisplayChannelNumberCommand(tvRemote));
+tvRemote.addCommand(3, new IncreaseChannelNumber_1.IncreaseChannelNumberCommand(tvRemote));
+tvRemote.addCommand(4, new DecreaseChannelNumber_1.DecreaseChannelNumberCommand(tvRemote));
+tvRemote.addCommand(5, new DisplayVolumeCommand_1.DisplayVolumeCommand(tvRemote));
+tvRemote.addCommand(6, new IncreaseVolumeCommand_1.IncreaseVolumeCommand(tvRemote));
+tvRemote.addCommand(7, new DecreaseVolumeCommand_1.DecreaseVolumeCommand(tvRemote));
+// Turns on TV
+tvRemote.runCommand(0);
+// Displays volume
+tvRemote.runCommand(5);
 // Increase volume by 20 & Then display volume
 for (var i = 0; i < 20; i++) {
-    increaseVolumeCommand.execute();
+    tvRemote.runCommand(6);
 }
-displayVolumeCommand.execute();
+tvRemote.runCommand(5);
 // Decrease volume by 1
-decreaseVolumeCommand.execute();
-displayVolumeCommand.execute();
+tvRemote.runCommand(7);
+tvRemote.runCommand(5);
 // Display the channel number
-displayChannelNumberCommand.execute();
+tvRemote.runCommand(2);
 // Increase channel by 5 & display the channel number
 for (var i = 0; i < 5; i++) {
-    increaseChannelNumberCommand.execute();
+    tvRemote.runCommand(3);
 }
-displayChannelNumberCommand.execute();
+tvRemote.runCommand(2);
 // Decrease channel number and then display it
-decreaseChannelNumberCommand.execute();
-displayChannelNumberCommand.execute();
+tvRemote.runCommand(4);
+tvRemote.runCommand(2);
 // Turn off the tv
-turnOffCommand.execute();
+tvRemote.runCommand(1);
