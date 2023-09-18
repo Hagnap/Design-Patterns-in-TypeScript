@@ -1,12 +1,13 @@
 import { ICommand } from "../ICommand";
+import { IDevice } from "../IDevice";
 import { TV } from "../TV";
 
 export class NoOpCommand implements ICommand {
     
-    private tvRemote: TV;
+    private device: IDevice;
 
-    public constructor(_tvRemote: TV) {
-        this.tvRemote = _tvRemote;
+    public constructor(_device: IDevice) {
+        this.device = _device;
     }
     
     public execute(): void {

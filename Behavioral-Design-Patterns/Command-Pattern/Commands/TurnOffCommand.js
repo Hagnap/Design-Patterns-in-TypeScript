@@ -9,6 +9,10 @@ var TurnOffCommand = /** @class */ (function () {
         console.log("Turning TV off...");
         this.tvRemote.turnOff();
     };
+    TurnOffCommand.prototype.undo = function () {
+        console.log("Turning TV on...");
+        this.tvRemote.turnOn();
+    };
     return TurnOffCommand;
 }());
 exports.TurnOffCommand = TurnOffCommand;

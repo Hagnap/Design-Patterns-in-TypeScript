@@ -1,7 +1,6 @@
-import { ICommand } from "./ICommand";
-import { NoOpCommand } from "./Commands/NoOpCommand";
+import { IDevice as IDevice } from "./IDevice";
 
-export class TV {
+export class TV implements IDevice {
 
     private volume: number;
     private channelNumber: number;

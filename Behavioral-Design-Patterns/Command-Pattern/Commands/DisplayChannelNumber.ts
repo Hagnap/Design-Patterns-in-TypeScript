@@ -1,17 +1,17 @@
 import { ICommand } from "../ICommand";
-import { TV } from "../TV";
+import { IDevice } from "../IDevice";
 
 export class DisplayChannelNumberCommand implements ICommand {
     
-    private tvRemote: TV;
+    private device: IDevice;
 
-    public constructor(_tvRemote: TV) {
-        this.tvRemote = _tvRemote;
+    public constructor(_device: IDevice) {
+        this.device = _device;
     }
     
     public execute(): void {
         console.log("Displaying channel number...");
-        this.tvRemote.displayChannelNumber();
+        this.device.displayChannelNumber();
     }
     
     public undo(): void {

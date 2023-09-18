@@ -1,94 +1,61 @@
 import { TV } from "./TV";
-import { NoOpCommand } from "./Commands/NoOpCommand";
-import { DecreaseVolumeCommand } from "./Commands/DecreaseVolumeCommand";
-import { IncreaseVolumeCommand } from "./Commands/IncreaseVolumeCommand";
+import { IDevice } from "./IDevice";
+import { DeviceRemote } from "./DeviceRemote";
 import { DisplayVolumeCommand } from "./Commands/DisplayVolumeCommand";
-import { TurnOffCommand } from "./Commands/TurnOffCommand";
-import { TurnOnCommand } from "./Commands/TurnOnCommand";
-import { DecreaseChannelNumberCommand } from "./Commands/DecreaseChannelNumber";
-import { IncreaseChannelNumberCommand } from "./Commands/IncreaseChannelNumber";
+import { DeviceButton } from "./DeviceButton";
 import { DisplayChannelNumberCommand } from "./Commands/DisplayChannelNumber";
 
-let tvRemote = new TV();
+let myTV = new TV();
+let myTVRemote = new DeviceRemote(myTV);
 
-let noOpCommand:NoOpCommand = new NoOpCommand(tvRemote);
-let increaseVolumeCommand:IncreaseVolumeCommand = new IncreaseVolumeCommand(tvRemote);
-let decreaseVolumeCommand:DecreaseVolumeCommand = new DecreaseVolumeCommand(tvRemote);
-let displayVolumeCommand:DisplayVolumeCommand = new DisplayVolumeCommand(tvRemote);
-let turnOnCommand: TurnOnCommand = new TurnOnCommand(tvRemote);
-let turnOffCommand: TurnOffCommand = new TurnOffCommand(tvRemote);
-let displayChannelNumberCommand: DisplayChannelNumberCommand = new DisplayChannelNumberCommand(tvRemote);
-let decreaseChannelNumberCommand: DecreaseChannelNumberCommand = new DecreaseChannelNumberCommand(tvRemote);
-let increaseChannelNumberCommand: IncreaseChannelNumberCommand = new IncreaseChannelNumberCommand(tvRemote);
+// Set misc buttons
+myTVRemote.setMiscButtonOne(
+    new DeviceButton(new DisplayVolumeCommand(myTVRemote.getDevice()))
+);
+
+myTVRemote.setMiscButtonTwo(
+    new DeviceButton(new DisplayChannelNumberCommand(myTVRemote.getDevice()))
+);
 
 // Turns on TV
-turnOnCommand.execute();
+myTVRemote.onButton.press();
 
 // Displays volume
-displayVolumeCommand.execute();
+myTVRemote.pressMiscButtonOne();
+
 
 // Increase volume by 20 & Then display volume
 for (var i = 0; i < 20; i++) {
-    increaseVolumeCommand.execute();
+    myTVRemote.increaseVolumeButton.press();
 }
-displayVolumeCommand.execute();
+myTVRemote.miscButtonOne.press();
 
 // Decrease volume by 1 and display it
-decreaseVolumeCommand.execute();
-displayVolumeCommand.execute();
+myTVRemote.decreaseVolumeButton.press();
+myTVRemote.miscButtonOne.press();
 
 // Display the channel number
-displayChannelNumberCommand.execute();
+myTVRemote.miscButtonTwo.press();
 
 // Increase channel by 5 & display the channel number
 for (var i = 0; i < 5; i++) {
-    increaseChannelNumberCommand.execute();
+    myTVRemote.increaseChannelButton.press();
 }
-displayChannelNumberCommand.execute();
+myTVRemote.miscButtonTwo.press();
 
 // Decrease channel number and then display it
-decreaseChannelNumberCommand.execute();
-displayChannelNumberCommand.execute();
+myTVRemote.decreaseChannelButton.press();
+myTVRemote.miscButtonTwo.press();
 
 // Turn off the tv
-turnOffCommand.execute();
+myTVRemote.offButton.press();
 
-/*
-// Run commands --- Maps a command to an index (ex 0 is mapped to TurnOnCommand, 1 is mapped to TurnOffCommand, 6 is mapped to IncreaseVolumeCommand, and so on)
-tvRemote.addCommand(0, new TurnOnCommand(tvRemote));
-tvRemote.addCommand(1, new TurnOffCommand(tvRemote));
-tvRemote.addCommand(2, new DisplayChannelNumberCommand(tvRemote));
-tvRemote.addCommand(3, new IncreaseChannelNumberCommand(tvRemote));
-tvRemote.addCommand(4, new DecreaseChannelNumberCommand(tvRemote));
-tvRemote.addCommand(5, new DisplayVolumeCommand(tvRemote));
-tvRemote.addCommand(6, new IncreaseVolumeCommand(tvRemote));
-tvRemote.addCommand(7, new DecreaseVolumeCommand(tvRemote));
+// Demonstration of the undo's
+myTVRemote.offButton.pressUndo();
+myTVRemote.onButton.pressUndo();
 
-// Turns on TV
-tvRemote.runCommand(0);
-
-// Displays volume
-tvRemote.runCommand(5);
-
-// Increase volume by 20 & Then display volume
-for(let i = 0; i < 20; i++) { tvRemote.runCommand(6); }
-tvRemote.runCommand(5);
-
-// Decrease volume by 1
-tvRemote.runCommand(7);
-tvRemote.runCommand(5);
-
-// Display the channel number
-tvRemote.runCommand(2);
-
-// Increase channel by 5 & display the channel number
-for(let i = 0; i < 5; i++) { tvRemote.runCommand(3); }
-tvRemote.runCommand(2);
-
-// Decrease channel number and then display it
-tvRemote.runCommand(4);
-tvRemote.runCommand(2);
-
-// Turn off the tv
-tvRemote.runCommand(1);
-*/
+// Calls buttons with NoOp
+myTVRemote.miscButtonThree.press();
+myTVRemote.miscButtonThree.pressUndo();
+myTVRemote.miscButtonFour.press();
+myTVRemote.miscButtonFour.pressUndo();

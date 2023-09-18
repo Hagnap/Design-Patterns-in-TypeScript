@@ -1,20 +1,21 @@
 import { ICommand } from "../ICommand";
-import { TV } from "../TV";
+import { IDevice } from "../IDevice";
 
 export class DecreaseVolumeCommand implements ICommand {
 
-    private tvRemote: TV;
-    public constructor(_tvRemote: TV) {
-        this.tvRemote = _tvRemote;
+    private device: IDevice;
+
+    public constructor(_device: IDevice) {
+        this.device = _device;
     }
 
     public execute(): void {
         console.log("Decreasing volume...");
-        this.tvRemote.decreaseVolume();
+        this.device.decreaseVolume();
     }
 
     public undo(): void {
         console.log("Increasing volume...");
-        this.tvRemote.increaseVolume();
+        this.device.increaseVolume();
     }
 }

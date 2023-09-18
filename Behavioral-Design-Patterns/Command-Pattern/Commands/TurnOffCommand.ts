@@ -1,11 +1,11 @@
 import { ICommand } from "../ICommand";
-import { TV } from "../TV";
+import { IDevice } from "../IDevice";
 
 export class TurnOffCommand implements ICommand {
     
-    private tvRemote: TV;
+    private tvRemote: IDevice;
 
-    public constructor(_tvRemote: TV) {
+    public constructor(_tvRemote: IDevice) {
         this.tvRemote = _tvRemote;
     }
     
