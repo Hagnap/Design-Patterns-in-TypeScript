@@ -20,14 +20,14 @@ As for Design Patterns, this is something that I have been wanting to learn abou
 ### Creational 
 * [Factory Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Factory-Pattern)
 
-* [Singleton](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Singleton-Pattern)
+* [Singleton Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Singleton-Pattern)
   
 ### Structural
-* [Adapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Adapter-Pattern)
+* [Adapter Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Adapter-Pattern)
 
-* [Composite](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Composite-Pattern)
+* [Composite Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Composite-Pattern)
   
-* [Decorator](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Decorator-Pattern)
+* [Decorator Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Decorator-Pattern)
 
 ## Tech Stack
 
