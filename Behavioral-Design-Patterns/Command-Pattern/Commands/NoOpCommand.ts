@@ -11,11 +11,21 @@ export class NoOpCommand implements ICommand {
     }
     
     public execute(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("No operation has been assigned...");
     }
 
     
     public undo(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("No operation has been assigned...");
     }
 }

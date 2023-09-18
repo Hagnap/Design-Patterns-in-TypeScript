@@ -10,11 +10,21 @@ export class DecreaseChannelNumberCommand implements ICommand {
     }
     
     public execute(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Decreasing channel number...");
         this.device.decreaseChannelNumber();
     }
     
     public undo(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Increasing channel number...");
         this.device.increaseChannelNumber();
     }

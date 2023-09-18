@@ -17,6 +17,9 @@ myTVRemote.setMiscButtonTwo(
     new DeviceButton(new DisplayChannelNumberCommand(myTVRemote.getDevice()))
 );
 
+// Changes TV channel while it's off (does nothing)
+myTVRemote.increaseChannelButton.press();
+
 // Turns on TV
 myTVRemote.onButton.press();
 

@@ -10,11 +10,21 @@ export class DecreaseVolumeCommand implements ICommand {
     }
 
     public execute(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Decreasing volume...");
         this.device.decreaseVolume();
     }
 
     public undo(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Increasing volume...");
         this.device.increaseVolume();
     }

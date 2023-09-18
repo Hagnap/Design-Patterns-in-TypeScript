@@ -1,5 +1,4 @@
 import { ICommand } from "../ICommand";
-import { TV } from "../TV";
 import { IDevice } from "../IDevice";
 
 export class IncreaseChannelNumberCommand implements ICommand {
@@ -11,11 +10,21 @@ export class IncreaseChannelNumberCommand implements ICommand {
     }
     
     public execute(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Increasing channel number...");
         this.device.increaseChannelNumber();
     }
     
     public undo(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Decreasing channel number...");
         this.device.decreaseChannelNumber();
     }

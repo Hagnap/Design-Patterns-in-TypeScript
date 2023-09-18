@@ -1,5 +1,4 @@
 import { ICommand } from "../ICommand";
-import { TV } from "../TV";
 import { IDevice } from "../IDevice";
 
 export class IncreaseVolumeCommand implements ICommand {
@@ -11,11 +10,21 @@ export class IncreaseVolumeCommand implements ICommand {
     }
 
     public execute(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Increasing volume...");
         this.device.increaseVolume();
     }
 
     public undo(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Decreasing volume...");
         this.device.decreaseVolume();
     }

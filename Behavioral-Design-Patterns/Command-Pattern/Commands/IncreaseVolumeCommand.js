@@ -6,10 +6,16 @@ var IncreaseVolumeCommand = /** @class */ (function () {
         this.device = _device;
     }
     IncreaseVolumeCommand.prototype.execute = function () {
+        if (!this.device.getIsOn()) {
+            return;
+        }
         console.log("Increasing volume...");
         this.device.increaseVolume();
     };
     IncreaseVolumeCommand.prototype.undo = function () {
+        if (!this.device.getIsOn()) {
+            return;
+        }
         console.log("Decreasing volume...");
         this.device.decreaseVolume();
     };

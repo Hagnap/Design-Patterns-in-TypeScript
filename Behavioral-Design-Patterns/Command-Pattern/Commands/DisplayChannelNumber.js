@@ -6,10 +6,16 @@ var DisplayChannelNumberCommand = /** @class */ (function () {
         this.device = _device;
     }
     DisplayChannelNumberCommand.prototype.execute = function () {
+        if (!this.device.getIsOn()) {
+            return;
+        }
         console.log("Displaying channel number...");
         this.device.displayChannelNumber();
     };
     DisplayChannelNumberCommand.prototype.undo = function () {
+        if (!this.device.getIsOn()) {
+            return;
+        }
         console.log("Not displaying channel number...");
     };
     return DisplayChannelNumberCommand;

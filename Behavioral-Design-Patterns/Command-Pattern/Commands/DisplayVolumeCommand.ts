@@ -11,11 +11,21 @@ export class DisplayVolumeCommand implements ICommand {
     }
 
     public execute(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Displaying volume...");
         this.device.displayVolume();
     }
     
     public undo(): void {
+
+        if(!this.device.getIsOn()) {
+            return;
+        }
+
         console.log("Not displaying volume...");
     }
 }

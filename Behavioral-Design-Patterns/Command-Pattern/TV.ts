@@ -23,14 +23,16 @@ export class TV implements IDevice {
     }
 
     public turnOn(): void {
-        this.isOn = false;
+        this.isOn = true;
     }
 
     public displayVolume(): void {
+
         console.log(`Volume: ${this.volume}`);
     }
 
     public decreaseVolume(): void {
+
         if(this.volume > this.minVolume) {
             this.volume--;
         } else {
@@ -47,10 +49,12 @@ export class TV implements IDevice {
     }
 
     public displayChannelNumber(): void {
+
         console.log(`Channel Number: ${this.channelNumber}`);
     }
 
     public decreaseChannelNumber(): void {
+
         if(this.channelNumber > this.minChannelNumber) {
             this.channelNumber--;
         } else {
@@ -59,10 +63,14 @@ export class TV implements IDevice {
     }
 
     public increaseChannelNumber(): void {
+
         if(this.channelNumber < this.maxChannelNumber) {
             this.channelNumber++;
         } else {
             console.log("Max channel number has been reached...");
         }
+    }
+    public getIsOn(): boolean {
+        return this.isOn;
     }
 }

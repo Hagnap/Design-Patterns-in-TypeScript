@@ -6,9 +6,15 @@ var NoOpCommand = /** @class */ (function () {
         this.device = _device;
     }
     NoOpCommand.prototype.execute = function () {
+        if (!this.device.getIsOn()) {
+            return;
+        }
         console.log("No operation has been assigned...");
     };
     NoOpCommand.prototype.undo = function () {
+        if (!this.device.getIsOn()) {
+            return;
+        }
         console.log("No operation has been assigned...");
     };
     return NoOpCommand;

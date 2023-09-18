@@ -10,6 +10,8 @@ var myTVRemote = new DeviceRemote_1.DeviceRemote(myTV);
 // Set misc buttons
 myTVRemote.setMiscButtonOne(new DeviceButton_1.DeviceButton(new DisplayVolumeCommand_1.DisplayVolumeCommand(myTVRemote.getDevice())));
 myTVRemote.setMiscButtonTwo(new DeviceButton_1.DeviceButton(new DisplayChannelNumber_1.DisplayChannelNumberCommand(myTVRemote.getDevice())));
+// Changes TV channel while it's off (does nothing)
+myTVRemote.increaseChannelButton.press();
 // Turns on TV
 myTVRemote.onButton.press();
 // Displays volume

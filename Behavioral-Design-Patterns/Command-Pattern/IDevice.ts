@@ -4,6 +4,8 @@ export interface IDevice {
     
     turnOn(): void;
 
+    getIsOn(): boolean;
+
     displayVolume(): void;
 
     decreaseVolume(): void;

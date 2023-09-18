@@ -15,7 +15,7 @@ var TV = /** @class */ (function () {
         this.isOn = false;
     };
     TV.prototype.turnOn = function () {
-        this.isOn = false;
+        this.isOn = true;
     };
     TV.prototype.displayVolume = function () {
         console.log("Volume: ".concat(this.volume));
@@ -54,6 +54,9 @@ var TV = /** @class */ (function () {
         else {
             console.log("Max channel number has been reached...");
         }
+    };
+    TV.prototype.getIsOn = function () {
+        return this.isOn;
     };
     return TV;
 }());
