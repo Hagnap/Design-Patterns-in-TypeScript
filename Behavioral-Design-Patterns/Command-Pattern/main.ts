@@ -23,7 +23,6 @@ myTVRemote.onButton.press();
 // Displays volume
 myTVRemote.pressMiscButtonOne();
 
-
 // Increase volume by 20 & Then display volume
 for (var i = 0; i < 20; i++) {
     myTVRemote.increaseVolumeButton.press();
