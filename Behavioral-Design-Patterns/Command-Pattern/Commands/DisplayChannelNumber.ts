@@ -13,4 +13,8 @@ export class DisplayChannelNumberCommand implements ICommand {
         console.log("Displaying channel number...");
         this.tvRemote.displayChannelNumber();
     }
+    
+    public undo(): void {
+        console.log("Not displaying channel number...");
+    }
 }

@@ -13,4 +13,9 @@ export class DecreaseChannelNumberCommand implements ICommand {
         console.log("Decreasing channel number...");
         this.tvRemote.decreaseChannelNumber();
     }
+    
+    public undo(): void {
+        console.log("Increasing channel number...");
+        this.tvRemote.increaseChannelNumber();
+    }
 }

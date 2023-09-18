@@ -13,4 +13,9 @@ export class TurnOnCommand implements ICommand {
         console.log("Turning TV on...");
         this.tvRemote.turnOn();
     }
+
+    public undo(): void {
+        console.log("Turning TV off...");
+        this.tvRemote.turnOff();
+    }
 }

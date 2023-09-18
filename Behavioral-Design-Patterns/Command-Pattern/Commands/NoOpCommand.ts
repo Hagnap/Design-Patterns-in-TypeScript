@@ -12,4 +12,9 @@ export class NoOpCommand implements ICommand {
     public execute(): void {
         console.log("No operation has been assigned...");
     }
+
+    
+    public undo(): void {
+        console.log("No operation has been assigned...");
+    }
 }

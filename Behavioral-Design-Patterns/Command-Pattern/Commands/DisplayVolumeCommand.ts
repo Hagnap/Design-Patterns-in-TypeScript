@@ -12,4 +12,8 @@ export class DisplayVolumeCommand implements ICommand {
         console.log("Displaying volume...");
         this.tvRemote.displayVolume();
     }
+    
+    public undo(): void {
+        console.log("Not displaying volume...");
+    }
 }

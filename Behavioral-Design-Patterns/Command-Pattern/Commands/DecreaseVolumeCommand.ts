@@ -12,4 +12,9 @@ export class DecreaseVolumeCommand implements ICommand {
         console.log("Decreasing volume...");
         this.tvRemote.decreaseVolume();
     }
+
+    public undo(): void {
+        console.log("Increasing volume...");
+        this.tvRemote.increaseVolume();
+    }
 }
