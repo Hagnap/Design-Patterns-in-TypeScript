@@ -1,4 +1,4 @@
-import { TVRemote } from "./TVRemote";
+import { TV } from "./TV";
 import { NoOpCommand } from "./Commands/NoOpCommand";
 import { DecreaseVolumeCommand } from "./Commands/DecreaseVolumeCommand";
 import { IncreaseVolumeCommand } from "./Commands/IncreaseVolumeCommand";
@@ -9,7 +9,7 @@ import { DecreaseChannelNumberCommand } from "./Commands/DecreaseChannelNumber";
 import { IncreaseChannelNumberCommand } from "./Commands/IncreaseChannelNumber";
 import { DisplayChannelNumberCommand } from "./Commands/DisplayChannelNumber";
 
-let tvRemote = new TVRemote();
+let tvRemote = new TV();
 
 let noOpCommand:NoOpCommand = new NoOpCommand(tvRemote);
 let increaseVolumeCommand:IncreaseVolumeCommand = new IncreaseVolumeCommand(tvRemote);
@@ -23,6 +23,7 @@ let increaseChannelNumberCommand: IncreaseChannelNumberCommand = new IncreaseCha
 
 // Turns on TV
 turnOnCommand.execute();
+
 // Displays volume
 displayVolumeCommand.execute();
 

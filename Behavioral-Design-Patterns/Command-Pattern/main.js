@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var TVRemote_1 = require("./TVRemote");
+var TV_1 = require("./TV");
 var NoOpCommand_1 = require("./Commands/NoOpCommand");
 var DecreaseVolumeCommand_1 = require("./Commands/DecreaseVolumeCommand");
 var IncreaseVolumeCommand_1 = require("./Commands/IncreaseVolumeCommand");
@@ -10,7 +10,7 @@ var TurnOnCommand_1 = require("./Commands/TurnOnCommand");
 var DecreaseChannelNumber_1 = require("./Commands/DecreaseChannelNumber");
 var IncreaseChannelNumber_1 = require("./Commands/IncreaseChannelNumber");
 var DisplayChannelNumber_1 = require("./Commands/DisplayChannelNumber");
-var tvRemote = new TVRemote_1.TVRemote();
+var tvRemote = new TV_1.TV();
 var noOpCommand = new NoOpCommand_1.NoOpCommand(tvRemote);
 var increaseVolumeCommand = new IncreaseVolumeCommand_1.IncreaseVolumeCommand(tvRemote);
 var decreaseVolumeCommand = new DecreaseVolumeCommand_1.DecreaseVolumeCommand(tvRemote);

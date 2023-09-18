@@ -1,7 +1,7 @@
 import { ICommand } from "./ICommand";
 import { NoOpCommand } from "./Commands/NoOpCommand";
 
-export class TVRemote {
+export class TV {
 
     private volume: number;
     private channelNumber: number;

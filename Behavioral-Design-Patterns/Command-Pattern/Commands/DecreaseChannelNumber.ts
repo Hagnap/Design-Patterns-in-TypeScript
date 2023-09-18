@@ -1,11 +1,11 @@
 import { ICommand } from "../ICommand";
-import { TVRemote } from "../TVRemote";
+import { TV } from "../TV";
 
 export class DecreaseChannelNumberCommand implements ICommand {
     
-    private tvRemote: TVRemote;
+    private tvRemote: TV;
 
-    public constructor(_tvRemote: TVRemote) {
+    public constructor(_tvRemote: TV) {
         this.tvRemote = _tvRemote;
     }
     
