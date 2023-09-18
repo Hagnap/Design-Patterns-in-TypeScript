@@ -21,7 +21,38 @@ let displayChannelNumberCommand: DisplayChannelNumberCommand = new DisplayChanne
 let decreaseChannelNumberCommand: DecreaseChannelNumberCommand = new DecreaseChannelNumberCommand(tvRemote);
 let increaseChannelNumberCommand: IncreaseChannelNumberCommand = new IncreaseChannelNumberCommand(tvRemote);
 
+// Turns on TV
+turnOnCommand.execute();
+// Displays volume
+displayVolumeCommand.execute();
 
+// Increase volume by 20 & Then display volume
+for (var i = 0; i < 20; i++) {
+    increaseVolumeCommand.execute();
+}
+displayVolumeCommand.execute();
+
+// Decrease volume by 1 and display it
+decreaseVolumeCommand.execute();
+displayVolumeCommand.execute();
+
+// Display the channel number
+displayChannelNumberCommand.execute();
+
+// Increase channel by 5 & display the channel number
+for (var i = 0; i < 5; i++) {
+    increaseChannelNumberCommand.execute();
+}
+displayChannelNumberCommand.execute();
+
+// Decrease channel number and then display it
+decreaseChannelNumberCommand.execute();
+displayChannelNumberCommand.execute();
+
+// Turn off the tv
+turnOffCommand.execute();
+
+/*
 // Run commands --- Maps a command to an index (ex 0 is mapped to TurnOnCommand, 1 is mapped to TurnOffCommand, 6 is mapped to IncreaseVolumeCommand, and so on)
 tvRemote.addCommand(0, new TurnOnCommand(tvRemote));
 tvRemote.addCommand(1, new TurnOffCommand(tvRemote));
@@ -59,3 +90,4 @@ tvRemote.runCommand(2);
 
 // Turn off the tv
 tvRemote.runCommand(1);
+*/

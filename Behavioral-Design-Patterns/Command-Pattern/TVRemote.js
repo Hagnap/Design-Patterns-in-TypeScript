@@ -52,10 +52,16 @@ var TVRemote = /** @class */ (function () {
         if (this.volume > this.minVolume) {
             this.volume--;
         }
+        else {
+            console.log("Min volume level has been reached...");
+        }
     };
     TVRemote.prototype.increaseVolume = function () {
         if (this.volume < this.maxVolume) {
             this.volume++;
+        }
+        else {
+            console.log("Max volume level has been reached...");
         }
     };
     TVRemote.prototype.displayChannelNumber = function () {
@@ -65,10 +71,16 @@ var TVRemote = /** @class */ (function () {
         if (this.channelNumber > this.minChannelNumber) {
             this.channelNumber--;
         }
+        else {
+            console.log("Min channel number has been reached...");
+        }
     };
     TVRemote.prototype.increaseChannelNumber = function () {
         if (this.channelNumber < this.maxChannelNumber) {
             this.channelNumber++;
+        }
+        else {
+            console.log("Max channel number has been reached...");
         }
     };
     return TVRemote;

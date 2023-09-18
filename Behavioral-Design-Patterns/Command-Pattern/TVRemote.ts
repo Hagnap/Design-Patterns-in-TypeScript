@@ -7,9 +7,6 @@ export class TVRemote {
     private channelNumber: number;
     private isOn: boolean;
 
-    private numCommands: number = 8;
-    private commands: Array<ICommand>; 
-
     private minVolume: number = 0;
     private maxVolume: number = 100;
 
@@ -20,38 +17,6 @@ export class TVRemote {
         this.volume = 0;
         this.channelNumber = 0;
         this.isOn = false;
-        this.commands = new Array<ICommand>(this.numCommands);
-
-        for(let i = 0; i < this.commands.length; i++) {
-            this.commands[i] = new NoOpCommand(this);
-        }
-    }
-
-    private validateCommandNumberInput(input) {
-        if(input >= this.numCommands || input < 0) {
-            console.log(`ERROR: Out of range. There are only ${this.numCommands} command slots`);
-            return false;
-        }
-        return true;
-    }
-
-    public addCommand(index: number, command:ICommand): void{
-        if(this.validateCommandNumberInput(index)) {
-            this.commands[index] = command;
-        }
-
-    }
-
-    public removeCommand(index: number): void {
-        if(this.validateCommandNumberInput(index)) {
-            this.commands[index] = new NoOpCommand(this);
-        }
-    }
-
-    public runCommand(index: number) {
-        if(this.validateCommandNumberInput(index)) {
-            this.commands[index].execute();
-        }        
     }
 
     public turnOff(): void {
