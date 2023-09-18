@@ -11,9 +11,11 @@ As for Design Patterns, this is something that I have been wanting to learn abou
 ## Design Pattern Links
 
 ### Behavioral
- * [Strategy Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Strategy-Pattern)
+ * [Command Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Command-Pattern)
 
  * [Observer Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Observer-Pattern)
+
+ * [Strategy Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Strategy-Pattern)
 
 ### Creational 
 * [Factory Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Factory-Pattern)
@@ -21,9 +23,11 @@ As for Design Patterns, this is something that I have been wanting to learn abou
 * [Singleton](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Creational-Design-Patterns/Singleton-Pattern)
   
 ### Structural
-* [Decorator](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Decorator-Pattern)
-
 * [Adapter](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Adapter-Pattern)
+
+* [Composite](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Composite-Pattern)
+  
+* [Decorator](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Structural-Design-Patterns/Decorator-Pattern)
 
 ## Tech Stack
 
