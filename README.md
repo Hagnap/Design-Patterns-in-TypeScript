@@ -13,6 +13,8 @@ As for Design Patterns, this is something that I have been wanting to learn abou
 ### Behavioral
  * [Command Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Command-Pattern)
 
+ * [Iterator Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Iterator-Pattern)
+
  * [Observer Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Observer-Pattern)
 
  * [Strategy Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/tree/main/Behavioral-Design-Patterns/Strategy-Pattern)
