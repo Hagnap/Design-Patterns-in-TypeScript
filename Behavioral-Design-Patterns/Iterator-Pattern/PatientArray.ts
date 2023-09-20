@@ -1,9 +1,9 @@
 import { Iterator } from "./Iterator";
-import { List } from "./List";
+import { Collection } from "./Collection";
 import { Patient } from "./Patient";
-import { PatientArrayIterator } from "./PatientIterator";
+import { PatientArrayIterator } from "./PatientArrayIterator";
 
-export class PatientArray implements List<Patient> {
+export class PatientArray implements Collection<Patient> {
 
     public patients: Array<Patient>;
 

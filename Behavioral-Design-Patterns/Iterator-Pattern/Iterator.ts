@@ -1,5 +1,5 @@
 export interface Iterator<T> {
-    next(): T;
-    currentItem(): T;
+    next(): T | undefined;
+    currentItem(): T | undefined;
     hasNext(): boolean;
 }

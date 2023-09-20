@@ -1,16 +1,17 @@
-import { Patient } from "./Patient";
-import { NodeClass } from "./NodeClass";
+import { Collection } from "./Collection";
+import { Node } from "./node";
+import { LinkedListIterator } from "./LinkedListIterator";
 import { Iterator } from "./Iterator";
 
-export class LinkedList  implements Iterator<Patient> {
+export class LinkedList implements Collection<Node> {
 
-    private head: NodeClass | undefined;
+    private head: Node | undefined;
 
-    public constructor (_head: NodeClass | undefined = undefined) {
+    public constructor (_head: Node | undefined = undefined) {
         this.head = _head;
     }
 
-    public getHead(): NodeClass | undefined {
+    public getHead(): Node | undefined {
         return this.head;
     }
 
@@ -18,21 +19,25 @@ export class LinkedList  implements Iterator<Patient> {
         this.head = undefined;
     }
 
-    public append(node: NodeClass): void {
-        if(this.head == null) {
-            this.head = node;
-        } else {
-            let current: NodeClass | undefined = this.head;
+    public append(node: Node): void {
+        if(this.head) {
 
+            let current: Node | undefined = this.head;
             while(current) {
-                if(!current.getNext()) {
+                if(current.getNext()) {
                     current = current.getNext();
+                } else {
+                    current.setNext(node);
+                    break;
                 }
             }
+
+        } else {
+            this.head = node;
         }
     }
 
-    public iterator(): Iterator<Patient> {
-        return new PatientLinkedListIterator();
+    public iterator(): Iterator<Node> | undefined {
+        return new LinkedListIterator(this.head);
     }
 }
