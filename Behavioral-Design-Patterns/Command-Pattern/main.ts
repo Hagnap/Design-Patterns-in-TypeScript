@@ -49,15 +49,15 @@ myTVRemote.miscButtonTwo.press();
 myTVRemote.decreaseChannelButton.press();
 myTVRemote.miscButtonTwo.press();
 
+// Calls buttons with NoOp
+myTVRemote.miscButtonThree.press();
+myTVRemote.miscButtonThree.pressUndo();
+myTVRemote.miscButtonFour.press();
+myTVRemote.miscButtonFour.pressUndo();
+
 // Turn off the tv
 myTVRemote.offButton.press();
 
 // Demonstration of the undo's
 myTVRemote.offButton.pressUndo();
 myTVRemote.onButton.pressUndo();
-
-// Calls buttons with NoOp
-myTVRemote.miscButtonThree.press();
-myTVRemote.miscButtonThree.pressUndo();
-myTVRemote.miscButtonFour.press();
-myTVRemote.miscButtonFour.pressUndo();
