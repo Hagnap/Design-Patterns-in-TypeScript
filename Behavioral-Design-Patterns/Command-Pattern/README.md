@@ -1,8 +1,23 @@
 # Command-Pattern
 
 ## What is the Command Pattern
+Simply put the Command Pattern is a way to encapsulate a request (the command itself). An object is used to encapsulate all of the information (values for a method parameters, the object that owns the method, values, methods, etc.) needed to perform an action/trigger an evernt at a later time. Typically for each command there is an undo command to complement it. This pattern is also known as the Action Pattern or the Transition Pattern.
+
+**Terminology**
+  - Command: An interface for performing an action.
+
+  - Concrete Command: The implementation of an action being performed. Defines a connection between the receiver object and an action.
+
+  - Client: Creates a Concrete Command and sets its receiver. 
+
+  - Invoker: Asks the command to perform the request.
+
+  - Receiver: Knows how to perform the operations associated with carrying out a request.
 
 ## Generic UML
+![command](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/594a10a2-dae5-4364-b5f7-0aa46929a831)
+
+[Source](https://www.cs.mcgill.ca/~hv/classes/CS400/01.hchen/doc/command/command.html) (also page 236 in Design Patterns)
 
 ## Example Explanation
 
