@@ -36,7 +36,7 @@ Step 0: Install node if you do not have it. If you have it installed already, th
 
 Step 1: Open your terminal
 
-Step 2: Go into the "Design-Patterns-in-TypeScript/Creational-Design-Patterns/Factory-Pattern" directory on your local machine.
+Step 2: Go into the "Design-Patterns-in-TypeScript/Behavioral-Design-Patterns/Iterator-Pattern" directory on your local machine.
 
 Step 3: Run the node main.js command in your terminal
 
