@@ -4,6 +4,11 @@
 
 The Composite Pattern is a way for us to treat a single entity or a collection of entities in a uniform manner. This allows developers to represent part-whole hierachies and divide components into sub-components.
 
+**Terminology**
+  - Leaf: A single entity
+
+  - Composite: A collection of entities/leafs
+
 ## Generic UML
 
 ![bqHdT](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/3b88abce-fa09-42f5-bfa6-634888947bce)
