@@ -10,6 +10,9 @@ The Iterator Pattern is one that allows us to traverse a collection as it encaps
 
 
 ## Example Explanation
+
+You can see the UML that inspired the example below. I did not follow that UML to a T but isn't too far off from it. One of the main differences is that PatientList is called LinkedList (should be PatientLinkedList) and there is another data structure used, PatientArray. Two data-structures are used to showcase how traversal varies across data-structures. Both methods of traversal for arrays and linked list are simple. For an array we go to the next index (if it exists) and for a linked list we go to the next reference until the reference is null/undefined.
+
 ![Iterator-Design-Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/05f70f13-41d5-4914-acf9-35bcddb8666c)
 
 [Source](https://www.researchgate.net/figure/UML-class-diagram-for-Iterator-pattern_fig22_249885094)
