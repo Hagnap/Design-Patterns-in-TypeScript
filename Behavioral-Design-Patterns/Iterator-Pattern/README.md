@@ -10,7 +10,7 @@ The Iterator Pattern is one that allows us to traverse a collection as it encaps
 
 
 ## Example Explanation
-![Iterator-Design-Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/d4709576-f527-4d12-810e-a01c5c29d791)
+![Iterator-Design-Pattern](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/05f70f13-41d5-4914-acf9-35bcddb8666c)
 
 [Source](https://www.researchgate.net/figure/UML-class-diagram-for-Iterator-pattern_fig22_249885094)
 
