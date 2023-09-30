@@ -21,6 +21,13 @@ Simply put the Command Pattern is a way to encapsulate a request (the command it
 
 ## Example Explanation
 
+The example was inspired by the UML below. The main difference being there are more than commands implemented in the this example and I included the undo functionality for commands as well. The added commands are increaseVolume, decreaseVolume, increaseChannel, decreaseChannel, and four misc. buttons that can be set to any command. If not set to a command they have a NoOperation command to serve as a default, it does nothing. Each of these commands have their respective undo commands as well. 
+
+![command-1](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/969cf334-ecfd-475a-8b8f-40d71a88185d)
+
+[Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fanjanashankar.com%2F2021%2F08%2F01%2Fcommand-design-pattern-implementation-in-java%2F&psig=AOvVaw0hzR5p7g5JsGWxuazdh9if&ust=1696163862164000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIi6tfas0oEDFQAAAAAdAAAAABAJ)
+
+
 ## How to Run the Code
 
 Instructions
