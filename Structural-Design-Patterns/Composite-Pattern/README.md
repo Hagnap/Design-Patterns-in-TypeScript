@@ -22,3 +22,8 @@ Step 2: Go into the "Design-Patterns-in-TypeScript/Structural-Design-Patterns/Co
 
 Step 3: Run the node main.js command in your terminal
 
+------------------------------------------------------------------------------------------------------------------------
+
+Below is a result of the code being run. All it does is inspect files and directories/folders. If it's a file you will see the name of the file, if it's a directory/folder then you will see the files that it stores.
+
+![Capture](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/a435d66a-aed6-4508-ab13-9edfe362f100)
