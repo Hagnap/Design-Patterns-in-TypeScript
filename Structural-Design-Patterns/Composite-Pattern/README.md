@@ -10,6 +10,13 @@
 
 ## Example Explanation
 
+The code was inspired by this UML
+
+![5mn70](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/048fe5cd-218a-4987-8162-6a6283fd6ac5)
+
+
+[Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoftwareengineering.stackexchange.com%2Fquestions%2F339390%2Fmodeling-composite-design-pattern&psig=AOvVaw00Opkc29PBITnsCzlZ8Yrl&ust=1696165140113000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKjH69ex0oEDFQAAAAAdAAAAABAE)
+
 This is the structure of the "file system", it will help make sense of the output in the section below.
 
 ![FileStructure](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/fc840a56-53e5-43fd-a78b-22900d4f0384)
