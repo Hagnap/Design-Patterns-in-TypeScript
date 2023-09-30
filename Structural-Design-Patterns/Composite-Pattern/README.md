@@ -10,6 +10,11 @@
 
 ## Example Explanation
 
+This is the structure of the "file system", it will help make sense of the output in the section below.
+
+![FileStructure](https://github.com/Hagnap/Design-Patterns-in-TypeScript/assets/60297426/7e6cd79e-70f6-4b3f-b747-b477abd29b40)
+
+
 ## How to Run the Code
 
 Instructions
